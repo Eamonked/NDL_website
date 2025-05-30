@@ -3,7 +3,7 @@ import { DivideIcon as LucideIcon, Check } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface ComplianceCardProps {
-  icon: LucideIcon;
+  icon: typeof LucideIcon;
   title: string;
   points: string[];
   className?: string;
